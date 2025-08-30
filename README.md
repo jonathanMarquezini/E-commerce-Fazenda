@@ -1,4 +1,4 @@
-# Projeto Universitário: E-commerce de Fazenda
+# Projeto da Faculdade: E-commerce de Fazenda
 
 Este projeto é uma plataforma de e-commerce para a venda de produtos agrícolas, desenvolvido como parte de um trabalho acadêmico. Ele integra um front-end interativo com uma lógica de back-end robusta e persistência de dados, demonstrando habilidades em desenvolvimento full-stack.
 
