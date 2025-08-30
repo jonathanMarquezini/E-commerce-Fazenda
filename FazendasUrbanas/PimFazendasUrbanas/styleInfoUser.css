@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Imagens/fazendas.jpg) no-repeat;
+    background-size: cover;
+}
+
+nav{
+    margin-top:5.0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+#muda {
+    height: 10.0rem;
+    padding-bottom: 2.0rem;
+}
+
+
+ul{
+    display: flex;
+    gap: 10.0rem;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+ul li a{
+    color: white;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: green;
+    font-size: 2.4rem;
+    font-weight: 60.0rem;
+}
+
+
+button {
+    padding: 1.0rem 1.0rem 3.5rem 4.0rem;
+    font-size: 2.0rem;
+    width: 10.0rem;
+    height: 3.6rem;
+    display:flex;
+    background-color: rgb(27, 161, 27);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    
+}
+.teste {
+    border-radius: 5.0rem;
+    width: 12.0rem;
+    height: 3.0rem;
+    text-align: center;
+}
+
+main{
+    margin: 0 auto;
+    padding: 3.0rem;
+    width: 110.0rem;
+    background-color: rgb(241, 237, 237);
+    min-height: 30.0rem;
+    border-radius: 1.2rem;
+}
+
+.user-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.user-name #muda2{
+    width: 15.0rem;
+}
+
+#profile{
+    width: 20.0rem;
+}
+
+.user-name p{
+    width: 20.0rem;
+    display: block;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.user-name h1 {
+    font-size: 25px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.botoes  button{
+    background-color: white;
+    width: 25.0rem;
+    border-radius: 2.0rem;
+    text-align: center;
+    color: black;
+}
+
+.botoes button:hover{
+    background-color: rgb(118, 241, 118);
+    border: 0.1rem rgb(5, 34, 5) solid;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    padding:1.5rem;
+}
+
+label{
+    display: flex;
+    font-size: 2.2rem;
+    margin-bottom: 1.0rem;
+}
+
+.form-left input{
+    width:50.0rem;
+    margin-bottom:1.0rem;
+    height: 3.5rem;
+    border-radius: 1.5rem;
+    padding: 1.0rem;
+    font-size: 1.8rem;
+}
+.form-rigth{
+    display: block;
+    width:3.0rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-rigth{
+    background-color: white;
+    width: 40.0rem;
+    border-radius:2.2rem;
+    padding: 2.0rem 4.0rem;
+}
+
+.form-rigth p{
+
+    display:flex ;
+    text-align: center;
+    align-items: center;
+    margin: 3.0rem auto;
+    gap: 2.0rem;
+    font-size: 2.2rem;
+}
+
+#opcoes{
+    width:50.0rem;
+    height: 3.5rem;
+    border-radius: 1.5rem;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+
+#photo-abobora{
+    width: 5.0rem;
+    border-radius: 3.0rem;
+
+}
+

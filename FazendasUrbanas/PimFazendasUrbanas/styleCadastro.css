@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Imagens/fazendas.jpg) no-repeat;
+    background-size: cover;
+}
+
+.muda{
+    width: 150px;
+    margin: 10px 450px;
+}
+
+.pageCadastroUsuario{
+    margin: 0 auto;
+    padding: 30px;
+    width: 1100px;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 12px;
+}
+
+form{
+    background-color:#1E591C;
+    border-radius: 12px;
+    padding: 70px;
+    margin: 0 auto;
+    width: 800px;;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color:#ABD94A;
+    
+}
+
+.cadastro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastro label{
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+}
+
+.cadastro input{
+    width: 300px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+} 
+
+input {
+    text-indent: 2px;
+}
+
+.part{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+#date{
+    text-align: center;
+}
+h2{
+    margin: 30px 0 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.user{
+    display: flex;
+    justify-content: space-around;
+}
+
+.typeUser{
+    font-size: 20px;
+    color: white;
+}
+
+.typeUser input{
+    margin-right: 10px;
+    width: 30p;
+}
+
+.form-footer{
+    margin:25px 100px 0;
+
+    font-size: 20px;
+    color: white;
+}
+
+.form-footer a{
+    margin: 0 5px;
+    color: aqua;
+    text-decoration: none;
+}
+#arrow{
+    width: 40px;
+    height: 40px;
+    background-color:#006400;
+
+}
+.btn{
+    margin: 25px auto;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    background-color:#1E591C; 
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    border-radius: 30px;
+    padding: 8px 50px;
+    gap: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color:#006400;
+    border-color: rgb(88, 214, 88)8, 219, 18;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;   /* Alinha os itens no canto direito */
+    padding: 30px;         /* Adiciona um espaço à direita para não encostar no final */
+}
+
+ul {
+    list-style-type: none;       /* Remove marcadores da lista */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;       /* Mantém o link em uma linha */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;          /* Tamanho do botão */
+    background-color: #28a745;   /* Cor de fundo verde */
+    color: white;                /* Cor do texto */
+    text-align: center;
+    text-decoration: none;       /* Remove o sublinhado */
+    border-radius: 50px;         /* Borda arredondada */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Efeito suave */
+}
+
+.button:hover {
+    background-color: #218838;   /* Cor ao passar o mouse */
+}
+
+.button:active {
+    background-color: #1e7e34;   /* Cor ao clicar */
+}

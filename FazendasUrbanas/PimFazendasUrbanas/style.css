@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Imagens/fazendas.jpg) no-repeat;
+    background-size: cover;
+}
+
+nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#muda {
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+
+ul{
+    display: flex;
+    gap: 100px;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: green;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+button {
+    padding: 10px 10px 35px 40px;
+    font-size: 20px;
+    width: 100px;
+    height: 36px;
+    display:flex;
+    background-color: rgb(27, 161, 27);
+    color: white;
+    border: none;
+}
+.teste {
+    border-radius: 50px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+}
+
+
+main{
+    margin: 0 auto;
+    padding: 30px;
+    width: 1100px;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 12px;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.page .text{
+    width: 500px;
+}
+
+.colheita{
+    text-align: center;
+    border-radius: 15px;
+    width: 500px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+nav .botao {
+    display: inline-block;
+    padding: 10px 30px;        
+    background-color: rgb(27, 161, 27);
+    color: white;              
+    text-align: center;
+    text-decoration: none;     
+    border-radius: 50px;       
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+}
+
+nav .botao:hover {
+    background-color: rgb(23, 133, 23);
+}

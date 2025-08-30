@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCadastro.css">
+    <title>Cadastro de clientes</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Index.html" class="button">Voltar</a></li>
+        </ul>
+    </nav>
+
+    <div class="pageCadastroUsuario">
+        <img src="Imagens/muda.png" alt="" class="muda">
+            <form action="">
+                <h1>Novo cadastro</h1>
+                <div class="cadastro">
+                    <div class="part">
+                        <label for="">Nome Completo</label>
+                        <input type="text" required>
+
+                        <label for="">Email</label>
+                        <input type="email" required>
+
+                        <label for="">Data de Nascimento</label>
+                        <input type="date" required id="date">
+                    </div>
+                    <div class="part">
+                        <label for="">CPF ou CNPJ</label>
+                        <input type="text" required>
+
+                        <label for="">Senha</label>
+                        <input type="password" required>
+
+                        <label for="">Confirme a senha</label>
+                        <input type="password" required>
+                    </div>
+                
+                </div>
+                <h2>Tipos de usuários:</h2>
+                <div class="user">
+                    <div class="typeUser">
+                        <input type="radio" class="btn-radio" name="escolha">
+                        <label for="Comprador">Comprador</label required>
+                    </div>
+                    <div class="typeUser">
+                        <input type="radio" class="btn-radio" name="escolha">
+                        <label for="Fornecedor">Fornecedor</label required>
+                    </div>
+                </div>
+
+                <div class="form-footer">
+                    <p>Eu concordo com os termos de <a href="">Política de Pricacidade</a><input type="checkbox"></p>
+                    <p>Eu concordo com os termos de <a href="">Termos de Serviços</a><input type="checkbox"></p>
+                
+                    
+            </form>
+
+            
+        </div>
+        
+        <button class="btn">Cadastrar <img src="Imagens/arrowSvg.svg" alt="" id="arrow"></button>
+        
+        
+</body>
+
+</html>
